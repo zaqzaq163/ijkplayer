@@ -1,12 +1,9 @@
 name: iOS Release
 
 on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: '输入参数示例'
-        required: true
-        default: 'World'
+  push:
+    tags:
+      - 'f*'
 
 jobs:
   build:
