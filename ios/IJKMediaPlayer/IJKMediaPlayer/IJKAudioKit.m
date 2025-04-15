@@ -62,7 +62,7 @@
         NSLog(@"IJKAudioKit: AVAudioSession.setCategory() failed: %@\n", error ? [error localizedDescription] : @"nil");
         return;
     }
-    [self setActive:YES];
+    // [self setActive:YES];
 #endif
 }
 
